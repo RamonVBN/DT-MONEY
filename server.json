@@ -1,0 +1,44 @@
+{
+  "transactions": [
+    {
+      "description": "Desenvolvimento de site",
+      "price": 12000,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2025-04-21T22:22:31.196Z",
+      "id": 1
+    },
+    {
+      "description": "Hámburguer",
+      "price": 50,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2025-04-21T22:22:49.584Z",
+      "id": 2
+    },
+    {
+      "description": "PC Gamer",
+      "price": 5000,
+      "category": "Lazer",
+      "type": "outcome",
+      "createdAt": "2025-04-21T22:23:39.701Z",
+      "id": 3
+    },
+    {
+      "description": "Iogurte de banana",
+      "price": 8,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2025-04-21T22:24:02.728Z",
+      "id": 4
+    },
+    {
+      "description": "Barbeador",
+      "price": 250,
+      "category": "Eletrodoméstcos",
+      "type": "outcome",
+      "createdAt": "2025-04-21T23:04:44.540Z",
+      "id": 5
+    }
+  ]
+}
