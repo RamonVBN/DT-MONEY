@@ -2,6 +2,7 @@ import styled, { css } from "styled-components";
 
 
 
+
 export const SummaryContainer = styled.section`
 
     width: 100%;
@@ -19,7 +20,8 @@ export const SummaryContainer = styled.section`
 `
 
 interface SummaryCardProps {
-    $variant?: 'green'
+    $isTotal: true | false
+    $isNegative?: true | false
 }
 
 export const SummaryCard = styled.div<SummaryCardProps>`
@@ -43,9 +45,15 @@ export const SummaryCard = styled.div<SummaryCardProps>`
 
     }
 
-    ${props => props.$variant === 'green' && css`
-    background-color: ${props.theme["green-700"]};
-    `}
+    ${
+        props => props.$isTotal && props.$isNegative &&
+        css`
+        background-color: ${props.theme["red-700"]};`    
+    }
+
+    ${props => props.$isTotal && !props.$isNegative && css`
+        background-color: ${props.theme["green-700"]};
+        `}
 
 `
 

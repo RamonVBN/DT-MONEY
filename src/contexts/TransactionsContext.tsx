@@ -81,6 +81,7 @@ export function TransactionsProvider({children}: {children: ReactNode}){
             createdAt: new Date()
         } )
 
+        fetchTotalTransactions()
         fetchTransactions()
     }, [])
     
