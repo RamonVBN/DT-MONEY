@@ -6,6 +6,7 @@ import { PriceHightLight, TransactionsContainer, TransactionsTable } from "./sty
 import { TransactionsContext } from "../../contexts/TransactionsContext";
 import { dateFormatter, priceFormatter } from "../../utils/formatter";
 import { useContextSelector } from "use-context-selector";
+import { Pagination } from "../../components/Pagination";
 
 
 export function Transactions(){
@@ -13,6 +14,7 @@ export function Transactions(){
     const transactions = useContextSelector(TransactionsContext, (context) => {
         return context.transactions
     })
+
 
     return <div>
         <Header/>
@@ -46,5 +48,7 @@ export function Transactions(){
         </TransactionsTable>
 
         </TransactionsContainer>
+
+        <Pagination/>
     </div>
 }

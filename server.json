@@ -39,6 +39,70 @@
       "type": "outcome",
       "createdAt": "2025-04-21T23:04:44.540Z",
       "id": 5
+    },
+    {
+      "description": "Desenvolvimento de site",
+      "price": 1212,
+      "category": "dsadsad",
+      "type": "income",
+      "createdAt": "2025-04-22T16:23:55.640Z",
+      "id": 7
+    },
+    {
+      "description": "Desenvolvimento de site",
+      "price": 1212,
+      "category": "dsadsad",
+      "type": "income",
+      "createdAt": "2025-04-22T16:23:55.640Z",
+      "id": 8
+    },
+    {
+      "description": "Desenvolvimento de site",
+      "price": 1212,
+      "category": "dsadsad",
+      "type": "income",
+      "createdAt": "2025-04-22T16:23:55.640Z",
+      "id": 9
+    },
+    {
+      "description": "Desenvolvimento de site",
+      "price": 1212,
+      "category": "dsadsad",
+      "type": "income",
+      "createdAt": "2025-04-22T16:23:55.640Z",
+      "id": 10
+    },
+    {
+      "description": "Desenvolvimento de site",
+      "price": 1212,
+      "category": "dsadsad",
+      "type": "income",
+      "createdAt": "2025-04-22T16:23:55.640Z",
+      "id": 11
+    },
+    {
+      "description": "Switch 2",
+      "price": 6000,
+      "category": "Lazer",
+      "type": "outcome",
+      "createdAt": "2025-04-22T18:37:35.394Z",
+      "id": 12
+    },
+    {
+      "description": "Curso",
+      "price": 814,
+      "category": "Educação",
+      "type": "outcome",
+      "createdAt": "2025-04-22T18:38:10.517Z",
+      "id": 13
+    },
+    {
+      "description": "Livro",
+      "price": 80,
+      "category": "Lazer",
+      "type": "outcome",
+      "createdAt": "2025-04-22T18:38:35.170Z",
+      "id": 14
     }
   ]
 }
