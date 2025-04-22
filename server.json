@@ -103,6 +103,38 @@
       "type": "outcome",
       "createdAt": "2025-04-22T18:38:35.170Z",
       "id": 14
+    },
+    {
+      "description": "Jogo",
+      "price": 280,
+      "category": "Lazer",
+      "type": "outcome",
+      "createdAt": "2025-04-22T21:45:05.084Z",
+      "id": 15
+    },
+    {
+      "description": "fds",
+      "price": 15,
+      "category": "Venda",
+      "type": "outcome",
+      "createdAt": "2025-04-22T21:52:39.067Z",
+      "id": 16
+    },
+    {
+      "description": "teste",
+      "price": 500,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2025-04-22T21:56:29.545Z",
+      "id": 17
+    },
+    {
+      "description": "teste2",
+      "price": 250,
+      "category": "sla",
+      "type": "outcome",
+      "createdAt": "2025-04-22T21:56:54.246Z",
+      "id": 18
     }
   ]
 }

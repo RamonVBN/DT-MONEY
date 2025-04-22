@@ -76,13 +76,12 @@ export function TransactionsProvider({children}: {children: ReactNode}){
 
     const createNewTransaction = useCallback(async (data: CreateNewTransaction ) => {
 
-        const response = await api.post('/transactions', {
+        await api.post('/transactions', {
             ...data,
             createdAt: new Date()
         } )
 
-        setTransactions((prevState) => [response.data, ...prevState])
-
+        fetchTransactions()
     }, [])
     
     useEffect(() => {
